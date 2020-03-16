@@ -1,8 +1,7 @@
 interface paramObjects {
-    domId: string,
-    isWelt?: boolean,
-    domWidth?: number,
-    domHeight?: number
+    domId: string;
+    isWelt?: boolean;
+    domWidth?: number;
+    domHeight?: number;
 }
-
-declare var drag: (paramObjects: paramObjects) => void;
+declare let drag: (paramObject: paramObjects) => void;

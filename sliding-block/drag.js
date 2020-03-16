@@ -18,6 +18,7 @@
 	function touchstart(e) {
 		e.preventDefault();
 		if (!isTransition) isStart = true;
+		Array.from()
 	}
 
 	function touchmove(e) {
